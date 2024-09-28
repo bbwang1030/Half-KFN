@@ -1,0 +1,9 @@
+numpy
+scipy
+setuptools
+requests
+GitPython
+
+[testing]
+pytest
+pytest-cov
