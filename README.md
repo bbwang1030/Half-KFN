@@ -2,6 +2,8 @@
 
 An Enhanced  Detection Method for Subtle Covariate Drift
 
+Paper URL: https://doi.org/10.48550/arXiv.2410.08782
+
 ### Description
 
 Detecting covariate drift is a common task of significant practical value in supervised learning. Once covariate drift occurs, the models may no longer be applicable, hence numerous studies have been devoted to the advancement of detection methods. However, current research methods are not particularly effective in handling subtle covariate drift when dealing with small proportions of drift samples. In this paper, inspired by the $k$-nearest neighbor (KNN) approach, a novel method called $k$-farthest neighbor (Half-KFN) is proposed in response to specific scenarios. Compared to traditional ones, Half-KFN exhibits higher power due to the inherent capability of the farthest neighbors which could better characterize the nature of drift. Furthermore, with larger sample sizes, the employment of the bootstrap for hypothesis testing is recommended. It is leveraged to calculate $p$-values dramatically faster than permutation tests, with speed undergoing an exponential growth as sample size increases. Numerical experiments on simulated and real data are conducted to evaluate our proposed method, and the results demonstrate that it consistently displays superior sensitivity and rapidity in covariate drift detection across various cases. 
